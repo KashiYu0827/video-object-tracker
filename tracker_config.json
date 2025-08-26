@@ -1,0 +1,164 @@
+{
+  "colors": {
+    "yellow": {
+      "hsv_range": [
+        [
+          20,
+          100,
+          100
+        ],
+        [
+          30,
+          255,
+          255
+        ]
+      ],
+      "track_color": [
+        0,
+        255,
+        0
+      ],
+      "highlight_color": [
+        0,
+        255,
+        255
+      ],
+      "name": "黄色"
+    },
+    "red": {
+      "hsv_range": [
+        [
+          0,
+          100,
+          100
+        ],
+        [
+          10,
+          255,
+          255
+        ]
+      ],
+      "track_color": [
+        255,
+        0,
+        0
+      ],
+      "highlight_color": [
+        0,
+        0,
+        255
+      ],
+      "name": "赤色"
+    },
+    "blue": {
+      "hsv_range": [
+        [
+          100,
+          100,
+          100
+        ],
+        [
+          130,
+          255,
+          255
+        ]
+      ],
+      "track_color": [
+        0,
+        255,
+        255
+      ],
+      "highlight_color": [
+        255,
+        0,
+        0
+      ],
+      "name": "青色"
+    },
+    "green": {
+      "hsv_range": [
+        [
+          40,
+          100,
+          100
+        ],
+        [
+          80,
+          255,
+          255
+        ]
+      ],
+      "track_color": [
+        255,
+        0,
+        255
+      ],
+      "highlight_color": [
+        0,
+        255,
+        0
+      ],
+      "name": "緑色"
+    },
+    "orange": {
+      "hsv_range": [
+        [
+          10,
+          100,
+          100
+        ],
+        [
+          25,
+          255,
+          255
+        ]
+      ],
+      "track_color": [
+        0,
+        128,
+        255
+      ],
+      "highlight_color": [
+        0,
+        165,
+        255
+      ],
+      "name": "オレンジ色"
+    },
+    "purple": {
+      "hsv_range": [
+        [
+          130,
+          100,
+          100
+        ],
+        [
+          160,
+          255,
+          255
+        ]
+      ],
+      "track_color": [
+        255,
+        255,
+        0
+      ],
+      "highlight_color": [
+        128,
+        0,
+        128
+      ],
+      "name": "紫色"
+    }
+  },
+  "detection": {
+    "min_area": 50,
+    "morphology_kernel_size": 5,
+    "blur_kernel_size": 5
+  },
+  "trajectory": {
+    "line_thickness": 6,
+    "highlight_circle_size": 8,
+    "fps": 60
+  }
+}
